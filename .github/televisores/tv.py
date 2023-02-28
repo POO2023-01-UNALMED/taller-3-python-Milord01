@@ -16,7 +16,7 @@ class TV:
     def setControl(self,control):
         self.__control=control
     def getControl(self):
-        return self._TV__Control
+        return self.__control
     
     def setPrecio(self,precio):
         self.__precio=precio
